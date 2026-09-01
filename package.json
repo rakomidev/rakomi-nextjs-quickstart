@@ -1,0 +1,36 @@
+{
+  "name": "@rakomi-examples/quickstart-nextjs",
+  "version": "0.0.0",
+  "description": "Next.js 16 App Router quickstart — PKCE sign-in via @rakomi/react (client) with server-side token validation via @rakomi/node, wired through Next.js Server Actions and an httpOnly session cookie.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "NODE_ENV=production next build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@rakomi/node": "^0.2.0",
+    "@rakomi/react": "^0.2.0",
+    "next": "^16.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.13",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "jose": "^6.2.3",
+    "typescript": "^5.9.3",
+    "vite": "7.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakomidev/rakomi-nextjs-quickstart.git"
+  },
+  "homepage": "https://github.com/rakomidev/rakomi-nextjs-quickstart#readme",
+  "bugs": {
+    "url": "https://github.com/rakomidev/rakomi-nextjs-quickstart/issues"
+  }
+}
