@@ -1,0 +1,7 @@
+# Build + test artifacts (dist is also covered by the root .gitignore; coverage is not).
+.next/
+dist/
+coverage/
+.env.local
+test-results/
+playwright-report/
